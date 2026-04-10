@@ -1,18 +1,11 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/NMIMS-MPSTME-c8102e?style=for-the-badge&logoColor=white" alt="NMIMS Badge"/>
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-Express_5-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
-</p>
+
 
 <h1 align="center">🛡️ NMIMS Grievance Management System</h1>
 
 <p align="center">
-  <strong>A role-based, SLA-driven grievance tracking portal built for SVKM's NMIMS MPSTME</strong>
+  <strong>A role-based, SLA-driven grievance tracking portal built for SVKM's NMIMS </strong>
   <br/>
-  <em>Advanced Project Development (APD) — Full-Stack PERN Application with DevOps Integration</em>
+  <em>Agile Project Development — Full-Stack PERN Application with DevOps Integration</em>
 </p>
 
 <p align="center">
@@ -397,17 +390,8 @@ erDiagram
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|:---|:---|
-| **Riyansh** | Full-Stack Developer |
-| **Anshika** | Full-Stack Developer |
-
----
-
 ## 📄 License
 
-This project was built as part of the **Advanced Project Development (APD)** course at SVKM's NMIMS MPSTME.
+This project was built as part of the **Agile & Prod. Development** course at SVKM's NMIMS.
 
-© 2026 SVKM's NMIMS MPSTME. All rights reserved.
+
