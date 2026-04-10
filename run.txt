@@ -1,0 +1,17 @@
+Email: admin@nmims.edu
+Password: nmims_admin_2026
+
+🛠️ Step-by-Step Run Guide
+Ensure Docker is Running: Make sure the Docker Desktop app is open on your laptop. (If your database isn't running, run 
+docker-compose up db -d 
+in the root folder).
+
+Start the Backend (Terminal 1): Open a terminal and run:
+
+cd backend
+npm start
+
+Start the Frontend (Terminal 2): Open a second terminal and run:
+
+cd frontend
+npm run dev

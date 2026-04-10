@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: nmims_admin
+      POSTGRES_PASSWORD: nmims_password
+      POSTGRES_DB: nmims_grievance_db
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - DB_HOST=db
+      - DB_USER=nmims_admin
+      - DB_PASSWORD=nmims_password
+      - DB_NAME=nmims_grievance_db
+      - PORT=5000
+    depends_on:
+      - db
+
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
