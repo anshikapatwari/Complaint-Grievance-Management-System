@@ -390,7 +390,6 @@ erDiagram
 
 ---
 
-## 📄 License
 
 This project was built as part of the **Agile & Prod. Development** course at SVKM's NMIMS.
 
