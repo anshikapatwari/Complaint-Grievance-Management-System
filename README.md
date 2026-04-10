@@ -5,7 +5,7 @@
 <p align="center">
   <strong>A role-based, SLA-driven grievance tracking portal built for SVKM's NMIMS </strong>
   <br/>
-  <em>Agile Project Development — Full-Stack PERN Application with DevOps Integration</em>
+  <em>Agile & Prod. Development — Full-Stack PERN Application with DevOps Integration</em>
 </p>
 
 <p align="center">
